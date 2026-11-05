@@ -1,0 +1,5 @@
+# Tested on Python 3.10-3.12 (Ubuntu 22.04 / 24.04)
+# mediapipe 0.10.21 is the LAST 0.10.x release that still has the legacy mp.solutions API
+mediapipe==0.10.21
+numpy<2
+# OpenCV comes with mediapipe (opencv-contrib-python). Do NOT also install opencv-python.
